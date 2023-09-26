@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        /* let a
+        let b
+        function sum(a, b){
+            return a+b
+        }
+
+        sum= sum(10, 5)
+        console.log(sum) */
+
+
+        // NESTED FUNCTION
+
+        /* function addSquare(a,b){
+            function square(n){
+                return n*n
+            }
+            return square(a)+square(b)
+        }
+        
+        console.log(addSquare(2,3)); */
+
+        // ARROW FUNCTIONS
+
+        /* let addSquare = (a,b) => {
+            let square = (n) => n*n
+            return square(a)+square(b)
+        }
+
+        console.log(addSquare(2,3)); */
+
+
+        /* let print= () => console.log("hello")
+        print() */
+
+
+        // CALLBACK FUNCTION 
+
+        /* let calculate = (a,b, operation) => operation(a,b)
+
+        let add = calculate(2,4, (n1,n2)=> n1+n2)
+
+        console.log(add); */
+
+        // ANOTHER EXAMPLE 
+
+        /* function greet(name,callback){
+            console.log("Hi"+" "+name)
+            callback()
+        }
+        
+        function callMe(){
+            console.log("I am call function")
+        }
+
+        greet("Vikram", callMe)
+ */
+        /* let arr=[1,2,3,4,5]
+        let show = (arr, printV) => {
+          let array=  print(arr) //[1,2,3]
+          for (const element of array) {
+            console.log(element);
+          } */
+         /*   let printV= print(arr) => {
+                for (const element of arr) {
+                    console.log(element)
+                }
+            } */
+        
+
+        /* function print(arr){
+            return arr.slice(0,3)
+        }
+
+        console.log(show(arr,print)); */
+
+        var a=50
+        var b=100
+
+        function show() {
+            var a=10
+            var b=20
+            console.log(a+b);
+
+        }
+
+        console.log(a+b);
+        show()
+
+
+
+
+    </script>
+</body>
+
+</html>
